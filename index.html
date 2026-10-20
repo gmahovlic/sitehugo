@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hugo Munhoz · Consultor de investimentos para empresários no Rio de Janeiro</title>
+  <meta name="description" content="Consultoria de investimentos independente, credenciada pela CVM, para donos de pequenas e médias empresas no Rio de Janeiro. Caixa da empresa e patrimônio do sócio organizados juntos, com fee fixo e sem comissão de produto.">
+  <link rel="canonical" href="https://gmahovlic.github.io/sitehugo/">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Hugo Munhoz · Consultor de investimentos para empresários no Rio de Janeiro">
+  <meta property="og:description" content="Olho o caixa da empresa e o patrimônio do sócio juntos e organizo onde o dinheiro fica. Fee fixo, sem comissão, sem conflito com banco ou corretora.">
+  <meta property="og:url" content="https://gmahovlic.github.io/sitehugo/">
+  <meta property="og:site_name" content="Hugo Munhoz · Consultoria de Investimentos">
+  <meta name="twitter:card" content="summary">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["FinancialService", "ProfessionalService"],
+    "name": "Hugo Munhoz · Consultoria de Investimentos",
+    "alternateName": "Hugo Munhoz, consultor de valores mobiliários CVM",
+    "description": "Consultoria de investimentos independente para donos de pequenas e médias empresas. Caixa da empresa e patrimônio do sócio organizados juntos, com fee fixo e sem comissão de produto.",
+    "url": "https://gmahovlic.github.io/sitehugo/",
+    "email": "hugo.consultor.fin@gmail.com",
+    "priceRange": "Fee fixo combinado previamente",
+    "areaServed": [
+      { "@type": "City", "name": "Rio de Janeiro", "containedInPlace": { "@type": "State", "name": "RJ" } },
+      { "@type": "Place", "name": "Zona Sul do Rio de Janeiro" },
+      { "@type": "Place", "name": "Barra da Tijuca" },
+      { "@type": "Place", "name": "Jacarepaguá" }
+    ],
+    "serviceType": "Consultoria de valores mobiliários",
+    "knowsAbout": ["Gestão de caixa de empresas", "Investimentos para pessoa jurídica", "Planejamento patrimonial de sócios", "Distribuição de lucros e eficiência tributária"],
+    "audience": { "@type": "BusinessAudience", "audienceType": "Donos de pequenas e médias empresas", "numberOfEmployees": { "@type": "QuantitativeValue", "minValue": 5, "maxValue": 50 } },
+    "provider": {
+      "@type": "Person",
+      "name": "Hugo Munhoz",
+      "jobTitle": "Consultor de valores mobiliários credenciado pela CVM",
+      "email": "hugo.consultor.fin@gmail.com",
+      "affiliation": { "@type": "Organization", "name": "Ávitta" }
+    },
+    "parentOrganization": { "@type": "Organization", "name": "Ávitta" },
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "name": "Agendar raio-x gratuito de 20 minutos",
+      "target": "https://calendar.app.google/dmXFiYtfJnzEamMF7"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy: #0f1e33;
+      --navy-deep: #0a1526;
+      --cream: #f6f3ec;
+      --cream-dark: #ebe6da;
+      --gold: #9a7b3c;
+      --gold-light: #c9ab6a;
+      --ink: #1c2433;
+      --muted: #5c6577;
+      --line: #d9d3c5;
+      --max: 48rem;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: auto; -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--cream);
+    }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; line-height: 1.15; margin: 0 0 .75rem; letter-spacing: -.01em; }
+    h1 { font-size: clamp(2rem, 6vw, 3.25rem); }
+    h2 { font-size: clamp(1.6rem, 4.5vw, 2.25rem); }
+    h3 { font-size: 1.2rem; margin-bottom: .35rem; }
+    p { margin: 0 0 1rem; }
+    a { color: var(--gold); }
+    em { font-style: italic; color: var(--gold); }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+    section { padding: 3.5rem 0; border-top: 1px solid var(--line); }
+    section:first-of-type { border-top: 0; }
+    .kicker { display: block; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-bottom: .75rem; }
+    .lead { font-size: 1.2rem; color: var(--muted); max-width: 38rem; }
+
+    .btn {
+      display: inline-block;
+      background: var(--gold);
+      color: #fff;
+      text-decoration: none;
+      padding: .95rem 1.5rem;
+      border-radius: 6px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    .btn:hover, .btn:focus { background: #7f6530; }
+    .btn-note { display: block; font-size: .85rem; color: var(--muted); margin-top: .6rem; }
+
+    /* Hero */
+    .hero { background: var(--navy); color: var(--cream); padding: 4rem 0 3.5rem; border-top: 0; }
+    .hero .lead { color: #c9ccd3; }
+    .hero h1 em { color: var(--gold-light); }
+    .hero .btn-note { color: #9aa1ad; }
+    .brand { font-family: Georgia, serif; font-size: .95rem; letter-spacing: .08em; color: var(--gold-light); margin-bottom: 2rem; }
+
+    /* Lists */
+    ul.plain { list-style: none; padding: 0; margin: 0; }
+    ul.plain li { padding: .9rem 0; border-top: 1px solid var(--line); }
+    ul.plain li:first-child { border-top: 0; }
+    ul.plain li strong { display: block; font-family: Georgia, serif; font-weight: 400; font-size: 1.15rem; margin-bottom: .15rem; }
+    ul.tags { list-style: none; padding: 0; margin: 1rem 0 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+    ul.tags li { background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: .4rem .9rem; font-size: .95rem; }
+
+    /* Steps */
+    ol.steps { list-style: none; counter-reset: s; padding: 0; margin: 0; }
+    ol.steps li { counter-increment: s; position: relative; padding: 0 0 1.5rem 3.25rem; }
+    ol.steps li::before {
+      content: "0" counter(s);
+      position: absolute; left: 0; top: -.15rem;
+      font-family: Georgia, serif; font-size: 1.6rem; color: var(--gold);
+    }
+    ol.steps li:last-child { padding-bottom: 0; }
+
+    /* Dark band */
+    .band { background: var(--navy); color: var(--cream); border-top: 0; }
+    .band h2 em { color: var(--gold-light); }
+    .band p { color: #d5d8de; }
+    .band .kicker { color: var(--gold-light); }
+
+    /* FAQ */
+    .faq dt { font-family: Georgia, serif; font-size: 1.2rem; margin-top: 1.5rem; }
+    .faq dd { margin: .35rem 0 0; color: var(--muted); }
+    .faq dt:first-child { margin-top: 0; }
+
+    /* Footer */
+    footer { background: var(--navy-deep); color: #b8bcc5; padding: 3rem 0; font-size: .95rem; }
+    footer a { color: var(--gold-light); }
+    footer .btn { color: #fff; }
+    footer p.legal { font-size: .85rem; line-height: 1.55; color: #8d93a0; border-top: 1px solid #243352; padding-top: 1.25rem; margin-top: 1.75rem; }
+
+    @media (min-width: 40rem) {
+      section { padding: 4.5rem 0; }
+      .hero { padding: 5.5rem 0 5rem; }
+      .two { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+    }
+  </style>
+</head>
+<body>
+
+<main>
+
+  <section class="hero" id="inicio">
+    <div class="wrap">
+      <p class="brand">Hugo Munhoz · Ávitta</p>
+      <h1>Consultoria de investimentos pra quem é <em>dono de empresa.</em></h1>
+      <p class="lead">Olho o caixa da empresa e o patrimônio do sócio juntos e organizo onde o dinheiro fica. Sem conflito com banco ou corretora.</p>
+      <p>
+        <a class="btn" href="https://calendar.app.google/dmXFiYtfJnzEamMF7">Agendar raio-x gratuito de 20 min</a>
+        <span class="btn-note">Online ou presencial no Rio de Janeiro. Sem compromisso.</span>
+      </p>
+    </div>
+  </section>
+
+  <section id="pra-quem">
+    <div class="wrap">
+      <span class="kicker">Pra quem é</span>
+      <h2>Empresa de 5 a 50 funcionários, <em>caixa parado</em> na conta PJ.</h2>
+      <p class="lead">Negócio estabelecido, que gira bem, mas nunca parou pra olhar o que sobra no fim do mês e pra onde esse dinheiro vai.</p>
+      <ul class="tags" aria-label="Perfis de empresa atendidos">
+        <li>Dono de clínica</li>
+        <li>Escritório de advocacia</li>
+        <li>Escritório de contabilidade</li>
+        <li>Comércio estabelecido</li>
+        <li>Pequena distribuidora</li>
+        <li>Pequena indústria</li>
+        <li>Oficina</li>
+        <li>Academia</li>
+        <li>Restaurante consolidado</li>
+      </ul>
+      <p style="margin-top:1.5rem">Se você se reconhece aí, provavelmente tem dinheiro rendendo quase nada na conta da empresa, mistura PF e PJ no dia a dia e só ouve do banco o que o banco quer vender. É exatamente isso que eu resolvo.</p>
+    </div>
+  </section>
+
+  <section id="o-que-faco">
+    <div class="wrap">
+      <span class="kicker">O que eu faço</span>
+      <h2>Cinco coisas, bem feitas.</h2>
+      <ul class="plain">
+        <li><strong>Caixa da empresa rendendo em vez de parado.</strong> O que não precisa estar à vista vai pra onde rende, com a liquidez que o negócio exige.</li>
+        <li><strong>Separação clara entre dinheiro da PF e da PJ.</strong> Cada real com dono e função definidos. Acaba a conta misturada.</li>
+        <li><strong>Segunda opinião independente sobre o que o gerente do banco oferece.</strong> Eu leio a proposta, mostro o custo real e digo se vale ou não.</li>
+        <li><strong>Plano pra tirar dinheiro da empresa pagando menos imposto.</strong> Pró-labore, distribuição de lucros e investimento organizados em conjunto com seu contador.</li>
+        <li><strong>Uma pessoa que responde por isso, não um 0800.</strong> Você fala comigo. Eu conheço sua empresa e sua carteira.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <div class="wrap">
+      <span class="kicker">Como funciona</span>
+      <h2>Três passos, sem enrolação.</h2>
+      <ol class="steps">
+        <li>
+          <h3>Conversa de 20 minutos</h3>
+          <p>Raio-x do caixa da empresa e da carteira pessoal. Você sai sabendo onde está deixando dinheiro na mesa, mesmo que a gente não feche nada.</p>
+        </li>
+        <li>
+          <h3>Proposta com fee fixo combinado antes</h3>
+          <p>Escopo e valor fechados por escrito antes de qualquer trabalho. Sem surpresa na fatura.</p>
+        </li>
+        <li>
+          <h3>Acompanhamento contínuo</h3>
+          <p>Revisão periódica do caixa, da carteira e das decisões conforme a empresa muda. Eu continuo do seu lado.</p>
+        </li>
+      </ol>
+      <p style="margin-top:2rem"><a class="btn" href="https://calendar.app.google/dmXFiYtfJnzEamMF7">Agendar raio-x gratuito de 20 min</a></p>
+    </div>
+  </section>
+
+  <section class="band" id="como-ganho">
+    <div class="wrap">
+      <span class="kicker">Como eu ganho</span>
+      <h2>Fee fixo. <em>Sem rebate, sem comissão de produto.</em></h2>
+      <p class="lead">Você me paga pelo trabalho, não pelo que eu te vendo. Se eu indicar algo, é porque faz sentido pra você, não pra mim.</p>
+      <p>Isso é o que diferencia um consultor de valores mobiliários credenciado pela CVM de quem é remunerado pelo produto que empurra. Meu único cliente é você.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <span class="kicker">Perguntas frequentes</span>
+      <h2>O que todo mundo pergunta antes de agendar.</h2>
+      <dl class="faq">
+        <dt>Já tenho gerente no banco.</dt>
+        <dd>Ótimo, continue com ele. O gerente é remunerado pelo banco e oferece o que o banco quer vender. Eu sou remunerado por você e olho a proposta dele com olho de quem não ganha nada com isso.</dd>
+
+        <dt>Não tenho tempo.</dt>
+        <dd>São 20 minutos na primeira conversa. Depois disso, o trabalho é meu. Você decide, eu organizo e acompanho.</dd>
+
+        <dt>Não tenho muito dinheiro investido.</dt>
+        <dd>A maioria dos meus clientes não tinha. Tinha caixa parado na conta PJ e lucro saindo do jeito mais caro. O trabalho começa justamente aí.</dd>
+
+        <dt>Qual a diferença entre consultor e assessor de corretora?</dt>
+        <dd>O assessor é vinculado a uma corretora e ganha comissão sobre os produtos que você compra lá. O consultor credenciado pela CVM é independente, cobra fee fixo e não ganha nada do produto. Só pode recomendar, nunca vender.</dd>
+
+        <dt>Preciso trocar de banco ou corretora?</dt>
+        <dd>Não. Eu trabalho com a estrutura que você já tem. Se em algum momento fizer sentido abrir conta em outra instituição, a gente conversa, mas não é pré-requisito.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="quem-sou">
+    <div class="wrap">
+      <span class="kicker">Quem sou</span>
+      <h2>Hugo Munhoz</h2>
+      <p>Consultor de valores mobiliários credenciado pela CVM. Atuo pela Ávitta, multi family office que trabalha com várias plataformas de investimento em vez de uma só, o que me dá liberdade pra escolher o que serve ao seu objetivo e não ao de uma instituição.</p>
+      <p>Atendo donos de pequenas e médias empresas no Rio de Janeiro, principalmente Zona Sul, Barra da Tijuca e Jacarepaguá, olhando empresa e sócio como uma coisa só. Pra falar comigo: <a href="mailto:hugo.consultor.fin@gmail.com">hugo.consultor.fin@gmail.com</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contato">
+  <div class="wrap">
+    <p><strong style="color:#fff">Hugo Munhoz · Consultoria de Investimentos</strong><br>
+    Rio de Janeiro · Zona Sul, Barra da Tijuca e Jacarepaguá<br>
+    E-mail: <a href="mailto:hugo.consultor.fin@gmail.com">hugo.consultor.fin@gmail.com</a></p>
+    <p><a class="btn" href="https://calendar.app.google/dmXFiYtfJnzEamMF7">Agendar raio-x gratuito de 20 min</a></p>
+    <p class="legal">Consultoria de valores mobiliários registrada na CVM. Este site não constitui oferta de produto financeiro nem garantia de rentabilidade. Rentabilidade passada não garante resultado futuro.</p>
+  </div>
+</footer>
+
+</body>
+</html>
