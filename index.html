@@ -33,16 +33,16 @@
       { "@type": "Place", "name": "Jacarepaguá" }
     ],
     "serviceType": "Consultoria de valores mobiliários",
-    "knowsAbout": ["Gestão de caixa de empresas", "Investimentos para pessoa jurídica", "Planejamento patrimonial de sócios", "Distribuição de lucros e eficiência tributária"],
+    "knowsAbout": ["Gestão de caixa de empresas", "Investimentos para pessoa jurídica", "Planejamento patrimonial de sócios", "Distribuição de lucros e eficiência tributária", "Consolidação de carteiras", "Previdência privada", "Seguros", "Câmbio", "Crédito empresarial", "Benefícios corporativos"],
     "audience": { "@type": "BusinessAudience", "audienceType": "Donos de pequenas e médias empresas", "numberOfEmployees": { "@type": "QuantitativeValue", "minValue": 5, "maxValue": 50 } },
     "provider": {
       "@type": "Person",
       "name": "Hugo Munhoz",
       "jobTitle": "Consultor de valores mobiliários credenciado pela CVM",
       "email": "hugo.consultor.fin@gmail.com",
-      "affiliation": { "@type": "Organization", "name": "Ávitta" }
+      "affiliation": { "@type": "Organization", "name": "Ávitta", "url": "https://avittawealth.com.br/" }
     },
-    "parentOrganization": { "@type": "Organization", "name": "Ávitta" },
+    "parentOrganization": { "@type": "Organization", "name": "Ávitta", "alternateName": "AV Partners", "url": "https://avittawealth.com.br/", "description": "Multi family office independente, sem vínculo com bancos ou corretoras" },
     "potentialAction": {
       "@type": "ReserveAction",
       "name": "Agendar raio-x gratuito de 20 minutos",
@@ -78,6 +78,9 @@
     h1 { font-size: clamp(2rem, 6vw, 3.25rem); }
     h2 { font-size: clamp(1.6rem, 4.5vw, 2.25rem); }
     h3 { font-size: 1.2rem; margin-bottom: .35rem; }
+    .two h3 { margin-top: 1.25rem; }
+    .two h3:first-child { margin-top: 0; }
+    .two > div + div { margin-top: 1.75rem; }
     p { margin: 0 0 1rem; }
     a { color: var(--gold); }
     em { font-style: italic; color: var(--gold); }
@@ -146,6 +149,7 @@
       section { padding: 4.5rem 0; }
       .hero { padding: 5.5rem 0 5rem; }
       .two { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+      .two > div + div { margin-top: 0; }
     }
   </style>
 </head>
@@ -230,6 +234,38 @@
     </div>
   </section>
 
+  <section id="estrutura">
+    <div class="wrap">
+      <span class="kicker">A estrutura por trás</span>
+      <h2>Atendimento de um, <em>estrutura de family office.</em></h2>
+      <p class="lead">Você fala comigo, mas por trás tem a Ávitta: um multi family office sem vínculo com produto, banco ou corretora. Serviço que antes era só pra família muito rica, no tamanho da sua empresa.</p>
+      <div class="two">
+        <div>
+          <h3>Seu dinheiro fica onde faz sentido</h3>
+          <p>Trabalho com várias instituições em vez de uma só. Cada objetivo vai pra plataforma com a melhor condição, e eu coordeno o conjunto.</p>
+          <ul class="tags" aria-label="Plataformas de investimento parceiras">
+            <li>BTG Pactual</li>
+            <li>XP</li>
+            <li>Warren</li>
+            <li>Safra Invest</li>
+            <li>Avenue</li>
+            <li>Interactive Brokers</li>
+            <li>Itaú BBA</li>
+            <li>Ágora</li>
+            <li>BlackRock</li>
+            <li>Mercado Bitcoin</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tudo num lugar só</h3>
+          <p>Consolidador de carteiras que junta conta PJ, conta PF, bancos, corretoras, fundos, exterior e participações numa visão única. Risco, liquidez e concentração organizados pra você decidir com contexto, não com extrato de três bancos diferentes.</p>
+          <h3>Além de investimento</h3>
+          <p>Quando a empresa precisa, a mesma estrutura resolve previdência privada, seguros, câmbio, crédito, consórcio, financiamento e benefícios corporativos pra equipe. Sem empurrar nada: entra na conversa só se fizer sentido pro seu caso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <span class="kicker">Perguntas frequentes</span>
@@ -248,7 +284,7 @@
         <dd>O assessor é vinculado a uma corretora e ganha comissão sobre os produtos que você compra lá. O consultor credenciado pela CVM é independente, cobra fee fixo e não ganha nada do produto. Só pode recomendar, nunca vender.</dd>
 
         <dt>Preciso trocar de banco ou corretora?</dt>
-        <dd>Não. Eu trabalho com a estrutura que você já tem. Se em algum momento fizer sentido abrir conta em outra instituição, a gente conversa, mas não é pré-requisito.</dd>
+        <dd>Não. Eu trabalho com a estrutura que você já tem. A Ávitta opera com BTG, XP, Warren, Safra, Avenue, Itaú BBA e outras, então se em algum momento fizer sentido abrir conta em outra instituição, a gente conversa. Mas não é pré-requisito.</dd>
       </dl>
     </div>
   </section>
@@ -257,7 +293,7 @@
     <div class="wrap">
       <span class="kicker">Quem sou</span>
       <h2>Hugo Munhoz</h2>
-      <p>Consultor de valores mobiliários credenciado pela CVM. Atuo pela Ávitta, multi family office que trabalha com várias plataformas de investimento em vez de uma só, o que me dá liberdade pra escolher o que serve ao seu objetivo e não ao de uma instituição.</p>
+      <p>Consultor de valores mobiliários credenciado pela CVM. Atuo pela <a href="https://avittawealth.com.br/" rel="noopener">Ávitta</a>, multi family office que trabalha com várias plataformas de investimento em vez de uma só, o que me dá liberdade pra escolher o que serve ao seu objetivo e não ao de uma instituição.</p>
       <p>Atendo donos de pequenas e médias empresas no Rio de Janeiro, principalmente Zona Sul, Barra da Tijuca e Jacarepaguá, olhando empresa e sócio como uma coisa só. Pra falar comigo: <a href="mailto:hugo.consultor.fin@gmail.com">hugo.consultor.fin@gmail.com</a>.</p>
     </div>
   </section>
